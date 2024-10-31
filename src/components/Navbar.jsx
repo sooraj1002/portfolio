@@ -11,7 +11,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
+      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}
+    >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -19,7 +20,8 @@ const Navbar = () => {
           onClick={() => {
             setActive('');
             window.scrollTo(0, 0);
-          }}>
+          }}
+        >
           <img
             src={logo} // your logo comes here
             alt="logo"
@@ -42,7 +44,8 @@ const Navbar = () => {
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
-              onClick={() => setActive(nav.title)}>
+              onClick={() => setActive(nav.title)}
+            >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
@@ -55,7 +58,8 @@ const Navbar = () => {
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
                 top-0 left-0 w-screen h-[100vh] z-10 menu ${
                   toggle ? 'menu-open' : 'menu-close'
-                }`}>
+                }`}
+            >
               <div className="flex justify-end">
                 <img
                   src={close}
@@ -66,7 +70,8 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end mt-[10rem] -ml-[35px]"
+              >
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
@@ -78,7 +83,8 @@ const Navbar = () => {
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
-                    }}>
+                    }}
+                  >
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   </li>
                 ))}

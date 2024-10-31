@@ -38,7 +38,7 @@ const Contact = () => {
           to_email: 'youremail@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'yourpublickey', //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -55,24 +55,27 @@ const Contact = () => {
           setLoading(false);
           console.log(error);
           alert('Something went wrong. Please try again.');
-        }
+        },
       );
   };
 
   return (
     <div
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
-      flex gap-10 overflow-hidden">
+      flex gap-10 overflow-hidden"
+    >
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] bg-jet p-8 rounded-2xl">
+        className="flex-[0.75] bg-jet p-8 rounded-2xl"
+      >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-10 flex flex-col gap-6 font-poppins">
+          className="mt-10 flex flex-col gap-6 font-poppins"
+        >
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">Your Name</span>
             <input
@@ -102,9 +105,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">
-              Your Message
-            </span>
+            <span className="text-timberWolf font-medium mb-4">Your Message</span>
             <textarea
               rows="7"
               name="message"
@@ -128,13 +129,12 @@ const Contact = () => {
             hover:bg-battleGray hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out"
             onMouseOver={() => {
-              document
-                .querySelector('.contact-btn')
-                .setAttribute('src', sendHover);
+              document.querySelector('.contact-btn').setAttribute('src', sendHover);
             }}
             onMouseOut={() => {
               document.querySelector('.contact-btn').setAttribute('src', send);
-            }}>
+            }}
+          >
             {loading ? 'Sending' : 'Send'}
             <img
               src={send}

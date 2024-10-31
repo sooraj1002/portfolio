@@ -23,9 +23,7 @@ const ExperienceCard = ({ experience }) => (
     }}
     date={
       <div>
-        <h3 className="text-dim text-[18px] font-bold font-beckman">
-          {experience.date}
-        </h3>
+        <h3 className="text-dim text-[18px] font-bold font-beckman">{experience.date}</h3>
       </div>
     }
     iconStyle={{ background: experience.iconBg }}
@@ -37,14 +35,16 @@ const ExperienceCard = ({ experience }) => (
           className="w-[60%] h-[60%] object-contain"
         />
       </div>
-    }>
+    }
+  >
     <div>
       <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">
         {experience.title}
       </h3>
       <p
         className="text-taupe text-[22px] font-semibold font-overcameBold tracking-[1px]"
-        style={{ margin: 0 }}>
+        style={{ margin: 0 }}
+      >
         {experience.company_name}
       </p>
     </div>
@@ -90,7 +90,8 @@ const Experience = () => {
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
-            }>
+            }
+          >
             <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
@@ -103,7 +104,7 @@ const Experience = () => {
               onClick={() =>
                 window.open(
                   'resume link', //paste the link to your resume here
-                  '_blank'
+                  '_blank',
                 )
               }
               onMouseOver={() => {
@@ -112,10 +113,9 @@ const Experience = () => {
                   .setAttribute('src', downloadHover);
               }}
               onMouseOut={() => {
-                document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', download);
-              }}>
+                document.querySelector('.download-btn').setAttribute('src', download);
+              }}
+            >
               MY RESUME
               <img
                 src={download}
