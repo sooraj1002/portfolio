@@ -7,37 +7,12 @@
 
 ## Live Demo
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
-
-## Getting Started
-
-To get started with this portfolio template, follow these simple steps:
-
-### Prerequisites
-
-Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
-
-### Setup
-
-- With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/shaqdeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
-
-```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
-```
-
-- Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
-
-```
-cd Portfolio-Template && code .
-```
+WIP!
 
 ## Install
 
-- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
-
-```
-npm install
+```bash
+yarn
 ```
 
 This will install all the packages and dependencies used in the project.
@@ -46,8 +21,8 @@ This will install all the packages and dependencies used in the project.
 
 - Run the following command to start a local server:
 
-```
-npm run dev
+```bash
+yarn run dev
 ```
 
 This will open up the project on a browser on `http://localhost:5173/`
@@ -56,16 +31,16 @@ This will open up the project on a browser on `http://localhost:5173/`
 
 - To create a production build:
 
-```
-npm run build
+```bash
+yarn run build
 ```
 
 - To preview the site as it will appear once deployed:
 
-```
-npm run preview
+```bash
+yarn run preview
 ```
 
 ## Built using a template
 
-This portfolio has been created, based off a template created by [@shaqdeff](https://github.com/shaqdeff)
+This portfolio has been created, based off a template created by [@shaqdeff](https://github.com/shaqdeff), using [this](https://github.com/shaqdeff/Portfolio-Template) template
