@@ -9,22 +9,22 @@ const AboutMe = () => {
         with are:
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#ED9FBE,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#ED9FBE] mr-2">➔</span> Python
         </li>
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#9F86C1,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#9F86C1] mr-2">➔</span> Kotlin
         </li>
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#ED9FBE,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#ED9FBE] mr-2">➔</span> C#
         </li>
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2   hover:shadow-[0_0_5px_#9F86C1,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#9F86C1] mr-2">➔</span> TypeScript
         </li>
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#ED9FBE,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#ED9FBE] mr-2">➔</span> JavaScript
         </li>
-        <li className="flex items-center mb-2">
+        <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#9F86C1,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">
           <span className="text-[#9F86C1] mr-2">➔</span> NextJS
         </li>
       </ul>

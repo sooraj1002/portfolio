@@ -50,7 +50,7 @@ export default function Home() {
 
           <div className="mx-auto text-center mt-10 justify-center">
             <a href="mailto:gabidev.contact@gmail.com">
-              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ED9FBE] font-bold border-[#ED9FBE]">
+              <button className="flex items-center mx-auto text-center p-6 px-10 border-[0.1rem] rounded-xl text-[#ED9FBE] font-bold border-[#ED9FBE] hover:shadow-[0_0_10px_#ED9FBE,0_0_15px_#de6c99] transition-shadow duration-100">
                 <FaEnvelope className="mr-2" />{" "}
                 {/* Add margin to the right of the icon */}
                 <h1 className="font-extrabold">Contact</h1>
