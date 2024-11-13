@@ -50,8 +50,8 @@ const Experience = () => {
         </div>
 
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none  p-4 transition-all duration-300 ">
-          <div className="bg-[#9F86C1] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#c5c2c9] pl-4 bg-none  p-4 transition-all duration-300 ">
+          <div className="bg-[#c5c2c9] h-2 w-[0.6rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">DEPOT</h3>
             <p className="text-base leading-6 ">Bartender @ DEPOT</p>
@@ -62,8 +62,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none p-4 transition-all duration-300 ">
-          <div className="bg-[#9F86C1] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#c5c2c9] pl-4 bg-none p-4 transition-all duration-300 ">
+          <div className="bg-[#c5c2c9] h-2 w-[0.8rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">McDonald&apos;s</h3>
             <p className="text-base leading-6 ">
@@ -76,8 +76,8 @@ const Experience = () => {
           </div>
         </div>
         {/* Promotion Visual Indicator */}
-        <div className="flex items-start border-l-4  border-[#9F86C1] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
-          <div className="bg-[#9F86C1] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
+        <div className="flex items-start border-l-4  border-[#c5c2c9] pl-4 bg-none rounded-b-lg p-4 transition-all duration-300 ">
+          <div className="bg-[#c5c2c9] h-2 w-[1.3rem] md:w-2 rounded-full mt-1 mr-2"></div>
           <div className="flex-grow">
             <h3 className="font-semibold text-lg ">Golf Club</h3>
             <p className="text-base leading-6 ">Waitress @ Golf Club</p>
