@@ -3,6 +3,7 @@ import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope } from "react-icons/fa";
+import Cinnamon from "@/components/python/Cinnamon";
 
 export default function Home() {
   return (
@@ -37,8 +38,10 @@ export default function Home() {
             </pre>
 
             <h1 className="text-xl  md:text-2xl mt-10 font-bold  ">
-              I like building things
+              I like building things.
             </h1>
+
+            <Cinnamon />
           </header>
           <p className="text-base font-normal text-center leading-8">
             I&apos;m a software engineer based in the United Kingdom with a

@@ -1,3 +1,5 @@
+import Cinnamon from "../python/Cinnamon";
+
 const AboutMe = () => {
   return (
     <section className="w-full max-w-2xl ">
