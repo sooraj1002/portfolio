@@ -6,7 +6,7 @@ import { FaArrowUp } from "react-icons/fa"; // Import the arrow icon
 
 const Cinnamon = () => {
   const [userInput, setUserInput] = useState<string>("");
-  const [response, setResponse] = useState<string>("");
+  //const [response, setResponse] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [messages, setMessages] = useState<{ sender: string; text: string }[]>(
     []
