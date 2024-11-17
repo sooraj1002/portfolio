@@ -3,7 +3,7 @@ import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope } from "react-icons/fa";
-import Cinnamon from "@/components/python/Cinnamon";
+// import Cinnamon from "@/components/python/Cinnamon";
 
 export default function Home() {
   return (
