@@ -41,7 +41,7 @@ export default function Home() {
               I like building things.
             </h1>
 
-            <Cinnamon />
+            {/* <Cinnamon /> */}
           </header>
           <p className="text-base font-normal text-center leading-8">
             I&apos;m a software engineer based in the United Kingdom with a
