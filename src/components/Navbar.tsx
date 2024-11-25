@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 
 import Link from "next/link";
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -66,7 +66,7 @@ const Navbar = () => {
           >
             <FaLinkedin className="text-xl" />
           </a> */}
-          <a
+          {/* <a
             href="https://twitter.com/gabideveloper"
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +74,7 @@ const Navbar = () => {
             className="text-[#f5f5f5] transition duration-300 hover:text-[#ff61a6]"
           >
             <FaTwitter className="text-xl" />
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
