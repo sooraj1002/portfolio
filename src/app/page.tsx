@@ -19,7 +19,7 @@ export default function Home() {
         <section className="w-full  3xl:min-h-[80rem] max-w-2xl justify-center content-center ">
           <header className="flex flex-col items-center  text-center gap-4 mb-7">
             <h1 className="text-5xl text-white md:text-6xl font-bold  ">
-              Hello, I&apos;m Gabi
+              Hello, I&apos;m Sooraj
             </h1>
             <pre className="text-lg mx-auto text-center font-mono whitespace-pre-wrap mt-6 wave-animation">
               {`
@@ -44,11 +44,14 @@ export default function Home() {
             {/* <Cinnamon /> */}
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m a software engineer based in the United Kingdom with a
-            passion for developing and maintaining high-impact, complex
-            applications. I am captivated by the latest advancements in
-            scientific inquiry, closely following pioneering research that
-            reshapes the boundaries of human knowledge.
+            I&apos;m a generalist software developer with an avid interest in
+            backend technologies. Opportunities where I get to crack previously
+            unknown problems and design solutions for them expecially excite me.
+            I have high ownership of my tasks and have a proven track record of
+            delivering all tasks I take up. I am also a strong advocate for
+            open-source software. Currently, I am looking for full time
+            opportunites where I can explore some new technologies and
+            contribute meaningfully.
           </p>
 
           <div className="mx-auto text-center mt-10 justify-center">

@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Navbar from "../components/Navbar"; // Import the Navbar component
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -16,28 +18,20 @@ const geistMono = localFont({
 
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
-  title: "Gabi's Portfolio",
-  description: "Explore Gabi's projects and skills in software engineering.",
-  keywords: [
-    "Gabi",
-    "portfolio",
-    "software engineering",
-    "Next.js developer",
-    "React developer",
-    "web development",
-  ],
+  title: "Sooraj's Portfolio",
+  description: "Explore Sooraj's projects and skills in software engineering.",
+  keywords: ["Sooraj Kashyap", "portfolio", "software engineering", "India"],
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Gabi&apos;s Portfolio",
+    title: "Sooraj's Portfolio",
     description:
-      "Discover Gabi&apos;s projects in software engineering, specializing in modern web development with Next.js.",
-    url: "https://gabidesign.uk",
-    siteName: "Gabi&apos;s Portfolio",
-
-    locale: "en_UK",
+      "Discover Sooraj's projects in software engineering, specializing in backend development.",
+    // url: "https://sooraj.in",
+    siteName: "Sooraj's Portfolio",
+    locale: "en_IN",
     type: "website",
   },
 };
@@ -52,7 +46,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <main>{children}</main>
         <Analytics />
         <SpeedInsights />
       </body>
