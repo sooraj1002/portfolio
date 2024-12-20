@@ -49,7 +49,7 @@ const Navbar = () => {
 
         <div className="flex space-x-4 text-center md:mx-0 mx-auto">
           <a
-            href="https://github.com/delimaci"
+            href="https://github.com/sooraj1002"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
